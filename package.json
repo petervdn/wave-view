@@ -1,7 +1,7 @@
 {
-  "name": "seng-boilerplate",
+  "name": "wave-view",
   "version": "1.0.2",
-  "description": "Boilerplate and example project for all Seng projects",
+  "description": "Draw audio waveforms on a canvas",
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
