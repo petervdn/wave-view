@@ -1,10 +1,8 @@
 export default class WaveView {
   private context: CanvasRenderingContext2D;
-  private audio: any;
 
-  constructor(canvas: HTMLCanvasElement, audio: Float32Array) {
+  constructor(canvas: HTMLCanvasElement) {
     this.context = canvas.getContext('2d');
-    this.audio = audio;
 
     this.clear();
   }
